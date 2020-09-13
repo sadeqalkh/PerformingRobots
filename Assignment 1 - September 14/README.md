@@ -2,8 +2,6 @@
 
 ### Photo Documentation of Arduino and Breadboard:
 
-![Assignment 1 PIC1](https://user-images.githubusercontent.com/60816393/93029214-9d84b200-f62a-11ea-9e1b-59a120c0da26.jpeg)
-
 ![Assignment 1 PIC2](https://user-images.githubusercontent.com/60816393/93029215-a1183900-f62a-11ea-9aae-2e500fb228f4.jpeg)
 
 ### The Schematic Diagram:
