@@ -7,9 +7,6 @@
 
 <img width="1183" alt="Screen Shot 2020-09-13 at 10 54 41 PM" src="https://user-images.githubusercontent.com/60816393/93026055-31974f00-f614-11ea-94b3-636aa2f637d7.png">
 
-### Video Documentation:
-
-
 ### Initial Concepts:
 
 The initial concepts in which I passed through consisted of two main ideas of functioning. The idea was implementing patterns in the program that switches from one pattern to another by a button. As it seems, the main idea narrowed to the usage of one button for switching between lighting modes in the LED. 
