@@ -1,4 +1,4 @@
-# Assignment One Documentation Page:
+# Assignment One, Documentation Page:
 
 ### Photo Documentation of Arduino and Breadboard:
 
