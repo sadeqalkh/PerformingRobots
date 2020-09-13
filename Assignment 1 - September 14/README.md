@@ -31,7 +31,7 @@ This assignment helped me to recover techniques and information for Arduino Exam
 
 ### Challenges:
 
-The challenges that I mostely encountered in this assignment was from the Inital Attemps (Concepts).
+The challenges I encountered in this assignment were from the Inital Concepts.
 
 ### Sources:
 
