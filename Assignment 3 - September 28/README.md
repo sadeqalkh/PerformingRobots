@@ -7,5 +7,6 @@
 
 ### Sources:
 Arduino Examples:
+
 Sparkfun Qwiic Button and Qwiic Switch Library  -  Example1_PrintButtonStatus
 Adafruit SSD1306  -  ssd1306_128x64_i2c
