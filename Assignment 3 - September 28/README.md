@@ -6,7 +6,6 @@
 ### Challenges:
 
 ### Sources:
-Arduino Examples:
 
 Sparkfun Qwiic Button and Qwiic Switch Library  -  Example1_PrintButtonStatus
 
