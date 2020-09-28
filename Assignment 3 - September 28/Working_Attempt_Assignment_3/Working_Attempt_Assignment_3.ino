@@ -1,3 +1,10 @@
+//The program's concept is to let the user visualize his/her button presses counts in the OLED display. As the program starts functioning in the OLED display, 
+//the user will be looking at the 'Adafruit' logo. The OLED display logo can be recognized by the user as a welcome or start page to the button count. 
+//As the user presses once on the start page, the program will direct the user to another page display "Button Pressed." When the button is unpressed by the user, 
+//the program will lead the user to a page display "Count" with a value that starts from 1 and increments forever by 1. Thus, leaving the user with a count value 
+//that demonstrates the total number of button presses.
+
+
 #include <SPI.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
