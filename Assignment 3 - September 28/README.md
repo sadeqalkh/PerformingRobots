@@ -1,4 +1,7 @@
 # Assignment 3 Documentation Page:
+
+### Photo Documentation:
+
 ### Concept:
 
 ### Outcome:
