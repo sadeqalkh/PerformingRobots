@@ -22,3 +22,14 @@
 ### Challenges:
 
 ### Sources:
+
+- Robot Voice:
+https://ttsmp3.com
+
+- Robot Voice increase in decibels:
+https://www.mp3louder.com
+
+- Arduino Examples: 
+Sparkfun Qwiic MP3 Trigger Arduino Library / Example1-PlaySong and Example9-PlayAll
+
+Sparkfun Qwiic Motor / 
