@@ -30,6 +30,7 @@ https://ttsmp3.com
 https://www.mp3louder.com
 
 - Arduino Examples: 
+
 Sparkfun Qwiic MP3 Trigger Arduino Library / Example1-PlaySong and Example9-PlayAll
 
-Sparkfun Qwiic Motor / 
+Sparkfun Qwiic Motor / https://learn.sparkfun.com/tutorials/hookup-guide-for-the-qwiic-motor-driver#experiment-1-testing-the-motors
