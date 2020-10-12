@@ -29,3 +29,9 @@ In this assignment, my code does not know how to initialize the MP3 player in ei
 Knowing that flaw, I thought that the engine could initialize instead in the motors' movements. From this second trial, I started to declare the track of the song and even experimenting with "mp3.isPlaying()" in "myMotorDriver.busy()." I thought that by knowing that "myMotorDriver.busy()" means the state of a running motor, I felt that I could refer my attempt to the "DancingRobot" function. In the "DancingRobot" function, the Robot's motors are active and show that the motors are busy "myMotorDriver.busy()" thus, It can be reasonable to initialize an MP3 track from "myMotorDriver.busy()" in an if statement. However, this attempt as well seemed to interfere with the motors' functions in the program. Therefore, my option was to declare my MP3 track in the setup() function, which will play the music only for once.
 
 ### Sources:
+
+Sparkfun Qwiic MP3 Trigger Arduino Library / Example1-PlaySong and Example9-PlayAll
+
+Sparkfun Qwiic Motor / https://learn.sparkfun.com/tutorials/hookup-guide-for-the-qwiic-motor-driver#experiment-1-testing-the-motors
+
+
