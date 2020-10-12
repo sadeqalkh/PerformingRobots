@@ -1,10 +1,8 @@
 //PROGRAM'S CONCEPT
-
-
-
-
-
-
+// This program's concept lets the robot play audio for one time, run its motors, display expressions, and use a button to control the robot's initialization. 
+// The button role is to control both the OLED display and the motors. The motors run when a button initializes the function "DancingRobot." When the motors' loop 
+// ends, the OLED display shows a sad facial expression, indicating that the robot is at a stable position that prevents it from running. The user's role is to make 
+// the robot happy to dance in which the user should expect a smiley face for the robot's satisfaction.
 
 #include <SPI.h>
 #include <Wire.h>
