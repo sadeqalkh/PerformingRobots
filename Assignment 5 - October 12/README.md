@@ -30,8 +30,10 @@ Knowing that flaw, I thought that the engine could initialize instead in the mot
 
 ### Sources:
 
-Sparkfun Qwiic MP3 Trigger Arduino Library / Example1-PlaySong and Example9-PlayAll
+- Sparkfun Qwiic MP3 Trigger Arduino Library / Example1-PlaySong and Example9-PlayAll
 
-Sparkfun Qwiic Motor / https://learn.sparkfun.com/tutorials/hookup-guide-for-the-qwiic-motor-driver#experiment-1-testing-the-motors
+- Sparkfun Qwiic Motor / https://learn.sparkfun.com/tutorials/hookup-guide-for-the-qwiic-motor-driver#experiment-1-testing-the-motors
 
+- Sparkfun Qwiic Button and Qwiic Switch Library - Example1_PrintButtonStatus
 
+- Adafruit SSD1306 - ssd1306_128x64_i2c
