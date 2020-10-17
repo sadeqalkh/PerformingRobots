@@ -17,6 +17,10 @@ Because the robot faced issues moving on a slippery surface, I am thinking of an
 
 ### The scenery:
 
+In this performance, the Shakespearean Robot will act as King Claudius in the play that addresses the court his miserable feelings and talks about his brother's death. After the robot performs King Claudius's feelings, he will address constitutional issues by talking about the Prince of Norway, Fortinbras.
+
+The costume of the robot should contain a sense of superiority. Placing a crown in the robot's head and implementing blue and red colors in the costume will describe power in the old ages.
+
 ### Resources:
 
 Reperformed act from Shakespear's Hamlet:      
