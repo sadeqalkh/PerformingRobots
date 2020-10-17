@@ -21,8 +21,7 @@ Because the robot faced issues moving on a slippery surface, I am thinking of an
 
 ### Resources:
 
-Reperformed act from Shakespear's Hamlet:
-
+Reperformed act from Shakespear's Hamlet:      
 https://www.youtube.com/watch?v=dL0o36T3sZI&feature=emb_logo
 
 
