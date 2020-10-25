@@ -14,6 +14,8 @@
 //  initializing the QwiicButton with the name button. Also, "button" is considered as a Pin to refer to.
 QwiicButton button;
 
+SCMD myMotorDriver; //This creates the main object of one motor driver and connected slaves.
+
 // OLED display width, in pixels
 #define SCREEN_WIDTH 128
 // OLED display height, in pixels
@@ -23,7 +25,6 @@ QwiicButton button;
 #define OLED_RESET     4 // Reset pin # (or -1 if sharing Arduino reset pin)
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
-SCMD myMotorDriver; //This creates the main object of one motor driver and connected slaves.
 MP3TRIGGER mp3; // Considering "mp3" as a name for the Qwiic MP3 TRIGGER
 
 //  Declaring the dimensions of both smiley and sad face in the program
@@ -67,6 +68,8 @@ void setup()
 {
   Serial.begin(9600);
 
+  pinMode(8, INPUT_PULLUP); //Use to halt motor movement (ground)
+
   //  To start loading the OLED Display
   display.begin(SSD1306_SWITCHCAPVCC, 0x3D);
   //  To clear the OLED Display
@@ -75,12 +78,35 @@ void setup()
   display.drawBitmap(0, 0, Crown_Logo, 128, 64, WHITE);
   ( (display.width()  - LOGO_WIDTH ) / 2, (display.height() - LOGO_HEIGHT) / 2, Crown_Logo, LOGO_WIDTH, LOGO_HEIGHT, 1);
   display.display();
+
+  //  SSD1306_SWITCHCAPVCC = generate display voltage from 3.3V internally
+  if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3D))
+  { // Address 0x3D for 128x64
+    Serial.println(F("SSD1306 allocation failed"));
+    for (;;); // Don't proceed, loop forever
+  }
+
   //  Setting motor driver at I2C
   myMotorDriver.settings.commInterface = I2C_MODE;
   //  I2C address of motor driver
   myMotorDriver.settings.I2CAddress = 0x5D;
-  //  I2C address of motor driver
+  //  set chip select if SPI selected with the config jumpers
+  myMotorDriver.settings.chipSelectPin = 10;
   Wire.begin();
+
+  //  Check to make sure the driver is done looking for slaves before beginning
+  Serial.print("Waiting for enumeration...");
+  while ( myMotorDriver.ready() == false );
+  Serial.println("Done.");
+  Serial.println();
+
+  //  Uncomment code for motor 1 inversion
+  while ( myMotorDriver.busy() ); //Waits until the SCMD is available.
+  myMotorDriver.inversionMode(1, 1); //invert motor 1
+
+  while ( myMotorDriver.busy() );
+  //  Enables the output driver hardware
+  myMotorDriver.enable();
 
   //---------------------------------------------------------------------------------------
 
@@ -135,120 +161,213 @@ void loop()
   {
     mp3.playTrack(1);
 
-    for (int movement = 0; movement < 1; movement++)
+    for (int i = 0; i < 1; i++)
     {
       delay(1000);
 
-      Forward_Movement_Fast();
+      //To Move Forward Fast for 5 seconds
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 150);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 150);
       delay(5000);
 
-      Right_Movement();
+      //To Move Right for 5 seconds
 
-      Left_Movement();
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 150);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 0);
+      delay(2000);
 
-      Forward_Movement_Slow();
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 125);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 0);
+      delay(2000);
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 100);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 0);
+      delay(1000);
+
+      //To Move Left for 5 seconds
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 0);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 150);
+      delay(2000);
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 0);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 125);
+      delay(2000);
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 0);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 100);
+      delay(1000);
+
+      //To Move Forward Slow for 5 seconds
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 100);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 100);
       delay(5000);
 
-      Right_Movement();
+      //To Move Right for 5 seconds
 
-      Backward_Movement_Slow();
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 150);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 0);
+      delay(2000);
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 125);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 0);
+      delay(2000);
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 100);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 0);
+      delay(1000);
+
+      //To Move Backward Slow for 5 seconds
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 0, 100);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 0, 100);
       delay(5000);
 
-      Stop_Movement();
-
-      Right_Movement();
-
-      Right_Movement();
-
-      Forward_Movement_Slow();
+      myMotorDriver.setDrive( LEFT_MOTOR, 0, 0);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 0, 0);
       delay(5000);
 
-      Left_Movement();
+      //To Move Right for 5 seconds
 
-      Stop_Movement();
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 150);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 0);
+      delay(2000);
 
-      Left_Movement();
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 125);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 0);
+      delay(2000);
 
-      Backward_Movement_Slow();
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 100);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 0);
+      delay(1000);
+
+      //To Move Right for 5 seconds
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 150);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 0);
+      delay(2000);
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 125);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 0);
+      delay(2000);
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 100);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 0);
+      delay(1000);
+
+      //To Move Forward Slow for 5 seconds
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 100);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 100);
       delay(5000);
 
-      Right_Movement();
+      //To Move Left  for 5 seconds
 
-      Left_Movement();
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 0);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 150);
+      delay(2000);
 
-      Right_Movement();
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 0);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 125);
+      delay(2000);
 
-      Stop_Movement();
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 0);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 100);
+      delay(1000);
 
-      Backward_Movement_Fast();
+      //To stop for 5 seconds
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 0, 0);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 0, 0);
+      delay(5000);
+
+      //To Move Left  for 5 seconds
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 0);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 150);
+      delay(2000);
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 0);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 125);
+      delay(2000);
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 0);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 100);
+      delay(1000);
+
+      //To Move Backward Slow for 5 seconds
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 0, 100);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 0, 100);
+      delay(5000);
+
+      //To Move Right for 5 seconds
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 150);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 0);
+      delay(2000);
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 125);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 0);
+      delay(2000);
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 100);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 0);
+      delay(1000);
+
+      //To Move Left  for 5 seconds
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 0);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 150);
+      delay(2000);
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 0);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 125);
+      delay(2000);
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 0);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 100);
+      delay(1000);
+
+      //To Move Right for 5 seconds
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 150);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 0);
+      delay(2000);
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 125);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 0);
+      delay(2000);
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 100);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 1, 0);
+      delay(1000);
+
+      //To stop for 5 seconds
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 0, 0);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 0, 0);
+      delay (5000);
+
+      //To Move Backward Fast for 7 seconds
+
+      myMotorDriver.setDrive( LEFT_MOTOR, 0, 150);
+      myMotorDriver.setDrive( RIGHT_MOTOR, 0, 150);
+      delay(7000);
+
     }
+
+
     Button_Pressed = false;
   }
+
+
   myMotorDriver.setDrive( LEFT_MOTOR, 0, 0);
   myMotorDriver.setDrive( RIGHT_MOTOR, 0, 0);
 
   mp3.stop();
   Button_Pressed = false;
 
-}
-void Right_Movement()
-{
-  myMotorDriver.setDrive( LEFT_MOTOR, 1, 150);
-  myMotorDriver.setDrive( RIGHT_MOTOR, 1, 0);
-  delay(2000);
-
-  myMotorDriver.setDrive( LEFT_MOTOR, 1, 125);
-  myMotorDriver.setDrive( RIGHT_MOTOR, 1, 0);
-  delay(2000);
-
-  myMotorDriver.setDrive( LEFT_MOTOR, 1, 100);
-  myMotorDriver.setDrive( RIGHT_MOTOR, 1, 0);
-  delay(1000);
-}
-
-void Left_Movement()
-{
-  myMotorDriver.setDrive( LEFT_MOTOR, 1, 0);
-  myMotorDriver.setDrive( RIGHT_MOTOR, 1, 150);
-  delay(2000);
-
-  myMotorDriver.setDrive( LEFT_MOTOR, 1, 0);
-  myMotorDriver.setDrive( RIGHT_MOTOR, 1, 125);
-  delay(2000);
-
-  myMotorDriver.setDrive( LEFT_MOTOR, 1, 0);
-  myMotorDriver.setDrive( RIGHT_MOTOR, 1, 100);
-  delay(1000);
-}
-
-void Stop_Movement()
-{
-  myMotorDriver.setDrive( LEFT_MOTOR, 0, 0);
-  myMotorDriver.setDrive( RIGHT_MOTOR, 0, 0);
-  delay (5000);
-}
-
-void Forward_Movement_Slow()
-{
-  myMotorDriver.setDrive( LEFT_MOTOR, 1, 100);
-  myMotorDriver.setDrive( RIGHT_MOTOR, 1, 100);
-}
-
-void Forward_Movement_Fast()
-{
-  myMotorDriver.setDrive( LEFT_MOTOR, 1, 150);
-  myMotorDriver.setDrive( RIGHT_MOTOR, 1, 150);
-}
-
-void Backward_Movement_Slow()
-{
-  myMotorDriver.setDrive( LEFT_MOTOR, 0, 100);
-  myMotorDriver.setDrive( RIGHT_MOTOR, 0, 100);
-}
-
-void Backward_Movement_Fast()
-{
-  myMotorDriver.setDrive( LEFT_MOTOR, 0, 150);
-  myMotorDriver.setDrive( RIGHT_MOTOR, 0, 150);
-  delay(7000);
 }
