@@ -167,7 +167,7 @@ void loop()
 
       //To Move Forward Fast for 5 seconds
 
-      myMotorDriver.setDrive( LEFT_MOTOR, 1, 150);
+      myMotorDriver.setDrive( LEFT_MOTOR, 0, 150);
       myMotorDriver.setDrive( RIGHT_MOTOR, 1, 150);
       delay(5000);
 
@@ -201,7 +201,7 @@ void loop()
 
       //To Move Forward Slow for 5 seconds
 
-      myMotorDriver.setDrive( LEFT_MOTOR, 1, 100);
+      myMotorDriver.setDrive( LEFT_MOTOR, 0, 100);
       myMotorDriver.setDrive( RIGHT_MOTOR, 1, 100);
       delay(5000);
 
@@ -221,10 +221,12 @@ void loop()
 
       //To Move Backward Slow for 5 seconds
 
-      myMotorDriver.setDrive( LEFT_MOTOR, 0, 100);
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 100);
       myMotorDriver.setDrive( RIGHT_MOTOR, 0, 100);
       delay(5000);
 
+      //To stop for 5 seconds
+      
       myMotorDriver.setDrive( LEFT_MOTOR, 0, 0);
       myMotorDriver.setDrive( RIGHT_MOTOR, 0, 0);
       delay(5000);
@@ -259,11 +261,11 @@ void loop()
 
       //To Move Forward Slow for 5 seconds
 
-      myMotorDriver.setDrive( LEFT_MOTOR, 1, 100);
+      myMotorDriver.setDrive( LEFT_MOTOR, 0, 100);
       myMotorDriver.setDrive( RIGHT_MOTOR, 1, 100);
       delay(5000);
 
-      //To Move Left  for 5 seconds
+      //To Move Left for 5 seconds
 
       myMotorDriver.setDrive( LEFT_MOTOR, 1, 0);
       myMotorDriver.setDrive( RIGHT_MOTOR, 1, 150);
@@ -283,7 +285,7 @@ void loop()
       myMotorDriver.setDrive( RIGHT_MOTOR, 0, 0);
       delay(5000);
 
-      //To Move Left  for 5 seconds
+      //To Move Left for 5 seconds
 
       myMotorDriver.setDrive( LEFT_MOTOR, 1, 0);
       myMotorDriver.setDrive( RIGHT_MOTOR, 1, 150);
@@ -299,7 +301,7 @@ void loop()
 
       //To Move Backward Slow for 5 seconds
 
-      myMotorDriver.setDrive( LEFT_MOTOR, 0, 100);
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 100);
       myMotorDriver.setDrive( RIGHT_MOTOR, 0, 100);
       delay(5000);
 
@@ -317,7 +319,7 @@ void loop()
       myMotorDriver.setDrive( RIGHT_MOTOR, 1, 0);
       delay(1000);
 
-      //To Move Left  for 5 seconds
+      //To Move Left for 5 seconds
 
       myMotorDriver.setDrive( LEFT_MOTOR, 1, 0);
       myMotorDriver.setDrive( RIGHT_MOTOR, 1, 150);
@@ -353,7 +355,7 @@ void loop()
 
       //To Move Backward Fast for 7 seconds
 
-      myMotorDriver.setDrive( LEFT_MOTOR, 0, 150);
+      myMotorDriver.setDrive( LEFT_MOTOR, 1, 150);
       myMotorDriver.setDrive( RIGHT_MOTOR, 0, 150);
       delay(7000);
 
