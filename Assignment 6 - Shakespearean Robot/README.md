@@ -26,7 +26,11 @@ The costume of the robot should contain a sense of superiority. Placing a crown 
 Reperformed act from Shakespear's Hamlet:      
 https://www.youtube.com/watch?v=dL0o36T3sZI&feature=emb_logo
 
-# October 26 Documentation
+# October 26 Documentation:
+
+### Photo Documentation:
+
+### Video Documentation:
 
 
 
