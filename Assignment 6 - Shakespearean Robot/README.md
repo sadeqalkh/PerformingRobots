@@ -30,6 +30,12 @@ https://www.youtube.com/watch?v=dL0o36T3sZI&feature=emb_logo
 
 ### Photo Documentation:
 
+![Assignment 6 PIC1](https://user-images.githubusercontent.com/60816393/97140527-3d7b4280-1776-11eb-8d7b-9e58f8042b3a.jpeg)
+
+![Assignment 6 PIC2](https://user-images.githubusercontent.com/60816393/97140531-3f450600-1776-11eb-885e-317f8000326c.jpeg)
+
+![Assignment 6 PIC3](https://user-images.githubusercontent.com/60816393/97140534-40763300-1776-11eb-90da-2ee4784bc57d.jpeg)
+
 ### Video Documentation:
 
 
