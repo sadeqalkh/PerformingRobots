@@ -14,3 +14,6 @@ This picture portrays an animation of the Robot's eye, which starts from the out
 
 ### Picture 3:
 This picture portrays an animation that intends to translate the Robot's movements. This animation can be shown faster when the Robot's speed is 200, and above, a normal pace is when the Robot's speed is between 100 and 200, and a slower pace if the Robot's speed is below 100. Hence, this animation can express slow-walk, normal-walk, and running. 
+
+### Picture 3 Source:
+https://steemkr.com/art/@magiccleatus/magiccleatus-animates-2d-running-stickman-an-animated-template
