@@ -24,12 +24,12 @@ This performance will not need an MP3 player because the sound effects will be s
 The set of performances will take place in a desert and a barn.
 There will be two plans for the set:
 
-Plan A:
+#### Plan A:
 
 The performance will take place on a green screen. In this case, the background will be dynamic, meaning that the performance can occur in multiple locations. 
 The requirement for this plan is the LED lights and a green sheet.
 
-Plan B:
+#### Plan B:
 
 The performance will take place on a stage. In this case, the background will be the same; however, different angles from the set will establish a dynamic feeling. The stage will contain sand, animal puppets, and barn model.
 The requirements for this plan are changing LED lights, sand, and background characters.
