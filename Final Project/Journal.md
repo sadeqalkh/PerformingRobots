@@ -10,14 +10,14 @@ In this project, one main character will represent the singer, and three to four
 
 ### Costume: 
 
-The robot in this performance should be humanoid in appearance. That is because it will be much easier for the audience to associate themselves with the robot.
-The costume theme will be 'country' based, which will represent the southwest of the US. All characters in the performance will be wearing a cowboy hat and red or blue t-shirt with blue jeans.
+- The robot in this performance should be humanoid in appearance. That is because it will be much easier for the audience to associate themselves with the robot.
+- The costume theme will be 'country' based, which will represent the southwest of the US. All characters in the performance will be wearing a cowboy hat and red or blue t-shirt with blue jeans.
 
 ### Technical Requirements:
 
-The robot in the performance should be able to communicate with the song because he is a singer. Due to this aspect, it is required from the robot to move its motors right, left, and straight. 
-The OLED display in the performance will have a role to show the robot's mouth. That is by portraying animations of moving mouth, and constant mouth movements.
-This performance will not need an MP3 player because the sound effects will be synchronous, meaning that the background sounds/music will match the performance in the post-production process.
+- The robot in the performance should be able to communicate with the song because he is a singer. Due to this aspect, it is required from the robot to move its motors right, left, and straight. 
+- The OLED display in the performance will have a role to show the robot's mouth. That is by portraying animations of moving mouth, and constant mouth movements.
+- This performance will not need an MP3 player because the sound effects will be synchronous, meaning that the background sounds/music will match the performance in the post-production process.
 
 ### The Environment:
 
