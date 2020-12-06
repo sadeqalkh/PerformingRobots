@@ -41,3 +41,7 @@ The requirements for this plan are changing LED lights, sand, and background cha
 In the performance, I intend to let the robot respond to the music, meaning that the robot's moving pace will depend on the music's tone.
 When the music's tone is higher, the robot will be active, which is by dancing (wiggle in most cases).
 When the music's tone is lower, the robot will slowly move forward, letting the robot approach the audience. The robot, in this case, will evoke that he is the main character of this performance.
+
+## Week 2
+
+
