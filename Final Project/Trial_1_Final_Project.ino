@@ -28,8 +28,8 @@ SCMD myMotorDriver; //This creates the main object of one motor driver and conne
 void setup()
 {
   Serial.begin(9600);
-  initOLED();
-  initButton();
+  OLED_initialization();
+  Button_initialization();
   //  Setting motor driver at I2C
   myMotorDriver.settings.commInterface = I2C_MODE;
   //  I2C address of motor driver
@@ -565,7 +565,6 @@ void Button_initialization()
 {
 
   Wire.begin(); //Join I2C bus
-  //I would assume motor driver and mp3 trigger also do this; apparently there is no harm in multiple calls
 
   //check if button will acknowledge over I2C
   if (button.begin() == false) {
@@ -579,7 +578,6 @@ void Button_initialization()
 
 void OLED_initialization()
 {
-  // SSD1306_SWITCHCAPVCC = generate display voltage from 3.3V internally
   if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3D)) { // Address 0x3D for 128x64
     Serial.println(F("SSD1306 allocation failed"));
     for (;;); // Don't proceed, loop forever
