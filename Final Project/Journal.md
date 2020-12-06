@@ -1,5 +1,7 @@
 # Draft Journal:
 
+## Week 1
+
 ### Song:
 
 Blake Shelton - God's Country
