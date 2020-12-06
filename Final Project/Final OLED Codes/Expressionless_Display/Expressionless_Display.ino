@@ -1,4 +1,4 @@
-//This program is designed to play the Expressionless animation in an unlimited duration
+//This program is designed to play an Expressionless display in an unlimited duration
 
 
 #include <Arduino.h>
