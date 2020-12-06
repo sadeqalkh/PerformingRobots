@@ -324,12 +324,12 @@ void animation() {
   display.display();
   delay(delayBetweenSprites);
   display.clearDisplay();
-  display.drawBitmap(0, 0, position4, 128, 18, SSD1306_WHITE);
+  display.drawBitmap(0, 0, position4, 128, 49, SSD1306_WHITE);
   display.display();
   delay(delayBetweenSprites);
 
   display.clearDisplay();
-  display.drawBitmap(0, 0, position4, 128, 18, SSD1306_WHITE);
+  display.drawBitmap(0, 0, position4, 128, 49, SSD1306_WHITE);
   display.display();
   delay(delayBetweenSprites);
   display.clearDisplay();
