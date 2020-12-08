@@ -350,14 +350,9 @@ void animation() {
   delay(delayBetweenSprites);
 }
 
-/*
-    Initialization functions, copied almost directly much from the examples
-*/
-
 void initButton() {
 
   Wire.begin(); //Join I2C bus
-  //I would assume motor driver and mp3 trigger also do this; apparently there is no harm in multiple calls
 
   //check if button will acknowledge over I2C
   if (button.begin() == false) {
