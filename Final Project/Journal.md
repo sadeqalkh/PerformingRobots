@@ -61,9 +61,14 @@ The script process involved including the motor movements, OLED display and fina
 
 Because I started thinking about the social context of the robot, the song in which represents cowboys will hopefully evoke ideas of social attachments to the robot. In sum, this song will help construct the idea of the robots reidenifying their idetities to match human's understanding.
 
+### Challenges:
+
+While going throught the Motor test, I realised that the motor drivers is not longer functioning. During this unpredicted action, I started to try every possible solution. At first, the motor driver did not only stopped working as it influenced Arduino to stop working. This way determined when the Arduino. did not send messages or initializations to other component such as the button and the OLED display. Additionaly, the motor driver stoped Arduino from blinking. Because of this feedback, I thought that the Qwicc wires were the issue due to the beleive that they are not functioning. When I tried the same wires in the different components, they worked and also allowed Arduino to blink. Secondly, I realised that the motor driver when trying all Qwicc wires did not blink. This aspect allowed me to think of a final alternation, which is to unscrew the motor and battery wires from the motor driver and re-screwing them again. The attempt did not succed and thus, I confirmed that the motors will not work until I get a new one.
+
+Because of this challenge, I redirected my thought into developing the performance's narrative and not to focus on Arduino until I get hands on a new motor driver. The challenge was time, in which this issue did not allow me to develop Arduino. This is mainly because I was disencouraged.
+
 ## Week 3
 
-UNCOMPLETED THOUGHTS:
 
 - Created the Robot's spirit code
 - Created the Robot's movement code
