@@ -53,7 +53,7 @@ For this week, I started my contraption by starting the head of the robot and th
 
 While finishing the base of the contraption, I used a scissor and a box cut to create geometric shapes to the robot. My intension from this geometric approach was to establish an idenity to the robot, this is merely based on nature. In other words, nature in terms of design does not follow the principle of sharp edges, geometric lines and square shapes in living beings. Instead, nature implement curvatures and unedged endings for us humans to identify all walks of life.
 
-### Script writing and mise-en-scêne
+### Script writing and mise-en-scêne:
 
 In film language mise-en-scêne corresponds the relationship between a main character to his surroundings. This conveys that in this final project, the robot should have a direct relationship to his surroundings, in the manner of creating a narrative behind an identity. Due to the implementation of this element in the final project, the script should not only consider words for the robot but instead, to influence his actions and behaviors.
 
