@@ -12,3 +12,13 @@
 
 ![20201213_001659](https://user-images.githubusercontent.com/60816393/101994252-76498980-3cda-11eb-8f64-a9a299e4e9e1.jpg)
 
+![Inner Mechanism](https://user-images.githubusercontent.com/60816393/101994288-c45e8d00-3cda-11eb-9eba-f59eeb1f3a5e.jpg)
+
+![Robot Back](https://user-images.githubusercontent.com/60816393/101994298-db04e400-3cda-11eb-8e3f-570c93640570.jpg)
+
+![Head](https://user-images.githubusercontent.com/60816393/101994307-ebb55a00-3cda-11eb-97be-17d8dcde0f3c.jpg)
+
+![Robot from Above](https://user-images.githubusercontent.com/60816393/101994317-ff60c080-3cda-11eb-82e7-e6c8bce3a5ce.jpg)
+
+![CowBoy Robot](https://user-images.githubusercontent.com/60816393/101994326-11dafa00-3cdb-11eb-8170-99a9e40650a3.jpg)
+
