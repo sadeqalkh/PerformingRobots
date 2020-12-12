@@ -44,13 +44,22 @@ When the music's tone is lower, the robot will slowly move forward, letting the 
 
 ## Week 2
 
-UNCOMPLETED THOUGHTS:
 
-- Assembling the robot's contrabtion
-- Thinking of creating the a geometric body for the robot (to influence the robot's identity in the film)
-- writing the script and scene's formation > trying to establish a realtionship between the robot and its environment
-- The costume of the robot however introduces how humans can influence a robot's appearenace for it being ungeometic with natural curves.
-- Challenges 
+- Assembling the robot's contraption:
+
+For this week, I started my contraption by starting the head of the robot and the balck paint in which will define the robot's character. Firstly, the head contraption was challenging because I had to think on an "easy to fix" contrabtion. Based on my previous experiences in this class, I realised that it is important to consider that the Robot at times will need inner maintainance for even worse, an upgrade. Because of this factor, I thought that the neck part of the robot will not be glued to the body and that is to simplify updrages or even fixings in the future. In all, the contraption relied on gravity and tension instead of glue. It did not only simply maintainance but also created a good looking shape to the robot.
+
+- Geometric body as a principle for the robot's idenity:
+
+While finishing the base of the contraption, I used a scissor and a box cut to create geometric shapes to the robot. My intension from this geometric approach was to establish an idenity to the robot, this is merely based on nature. In other words, nature in terms of design does not follow the principle of sharp edges, geometric lines and square shapes in living beings. Instead, nature implement curvatures and unedged endings for us humans to identify all walks of life.
+
+- Script writing and mise-en-scêne
+
+In film language mise-en-scêne corresponds the relationship between a main character to his surroundings. This conveys that in this final project, the robot should have a direct relationship to his surroundings, in the manner of creating a narrative behind an identity. Due to the implementation of this element in the final project, the script should not only consider words for the robot but instead, to influence his actions and behaviors.
+The script process involved including the motor movements, OLED display and finaly, the path in which the robot will follow to create a narrative. Because most audience will consider robots as passive tools with no emotions, I am trying to defeat this ideology in my film. This is by including a white background in the establising scene, in which will allow the audience to be introduced to the robot and not merely the performance. Hence, it will raise ideas and questions to how this robot can be attached socially to humanbeings.
+Because I started thinking about the social context of the robot, the song in which represents cowboys will hopefully evoke ideas of social attachments to the robot. In sum, this song will help construct the idea of the robots reidenifying their idetities to match human's understanding.
+
+
 
 ## Week 3
 
