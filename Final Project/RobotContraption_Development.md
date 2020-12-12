@@ -1,6 +1,6 @@
 # This page shows how the robot S.A.M. was developed
 
-![ROBOT]<img src="(https://user-images.githubusercontent.com/60816393/99916206-25b9be80-2d22-11eb-966c-6aff8e03d06e.jpeg)" width="100" height="100"/>
+<img src="![ROBOT](https://user-images.githubusercontent.com/60816393/99916206-25b9be80-2d22-11eb-966c-6aff8e03d06e.jpeg)" width="100" height="100"/>
 
 ![ARDUINO](https://user-images.githubusercontent.com/60816393/99916205-25212800-2d22-11eb-9088-7456e44fd77e.jpeg)
 
