@@ -9,3 +9,6 @@
 ![INNER PARTS](https://user-images.githubusercontent.com/60816393/99916202-23576480-2d22-11eb-9187-feed2118285e.jpeg)
 
 ![BACK](https://user-images.githubusercontent.com/60816393/99916204-24889180-2d22-11eb-95dc-329486516b65.jpeg)
+
+![20201213_001659](https://user-images.githubusercontent.com/60816393/101994252-76498980-3cda-11eb-8f64-a9a299e4e9e1.jpg)
+
