@@ -44,4 +44,24 @@ When the music's tone is lower, the robot will slowly move forward, letting the 
 
 ## Week 2
 
+UNCOMPLETED THOUGHTS:
+
+Assembling the robot's contrabtion
+Thinking of creating the a geometric body for the robot (to influence the robot's identity in the film)
+writing the script and scene's formation > trying to establish a realtionship between the robot and its environment
+
+The costume of the robot however introduces how humans can influence a robot's appearenace for it being ungeometic with natural curves.
+
+## Week 3
+
+UNCOMPLETED THOUGHTS:
+
+Created the Robot's spirit code
+Created the Robot's movement code
+Created the performance by using a green screen and zoom.
+Choose the assembly of background.
+Post Production.
+
+Video (Performance) link.
+Behind the scenes video link.
 
