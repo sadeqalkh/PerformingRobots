@@ -56,7 +56,9 @@ While finishing the base of the contraption, I used a scissor and a box cut to c
 ### Script writing and mise-en-scêne
 
 In film language mise-en-scêne corresponds the relationship between a main character to his surroundings. This conveys that in this final project, the robot should have a direct relationship to his surroundings, in the manner of creating a narrative behind an identity. Due to the implementation of this element in the final project, the script should not only consider words for the robot but instead, to influence his actions and behaviors.
+
 The script process involved including the motor movements, OLED display and finaly, the path in which the robot will follow to create a narrative. Because most audience will consider robots as passive tools with no emotions, I am trying to defeat this ideology in my film. This is by including a white background in the establising scene, in which will allow the audience to be introduced to the robot and not merely the performance. Hence, it will raise ideas and questions to how this robot can be attached socially to humanbeings.
+
 Because I started thinking about the social context of the robot, the song in which represents cowboys will hopefully evoke ideas of social attachments to the robot. In sum, this song will help construct the idea of the robots reidenifying their idetities to match human's understanding.
 
 ## Week 3
