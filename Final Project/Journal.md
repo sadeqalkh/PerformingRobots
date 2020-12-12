@@ -67,11 +67,30 @@ While going throught the Motor test, I realised that the motor drivers is not lo
 
 Because of this challenge, I redirected my thought into developing the performance's narrative and not to focus on Arduino until I get hands on a new motor driver. The challenge was time, in which this issue did not allow me to develop Arduino. This is mainly because I was disencouraged.
 
+### Costume:
+
 ## Week 3
 
+### The Robot's spirit code:
 
-- Created the Robot's spirit code
-- Created the Robot's movement code
+In this step of the week, I was struggling in how to generate a robot's spirit. I thought of two animations that are critical the the robot's representation. The first animatation had the role in establishing the mouth of the robot. The second animation in mind represented a moving mouth. For us, this will signify a speech.Iimplementing these idea was a challeng, this is because it wasn't possible for me to convert images into bitmap. This step was time consuming because most suggested websites failed and so did the researched webs. Because of this aspect, I thought of creating the animations manually which depended on my imagination skills.
+
+I followed a paper sketch to create drawing in bitmaps. Creating them took from me 3 hours but succedded in representing my ideal imagery.
+
+The other two facial expressions that were applied to the robot's spirit were:
+
+Emotionless reaction: This helped me in establing a base reaction for the robot's idenity. This is because robots in my performance demonstrate that they learn from humans and so, the emotionless reaction takes place in representing a robot's alienating behavior.
+
+Surprised reaction: This reaction is intended to be used two times in the film; however, I consider them to be the most powerful reactions in the performance. This is because it plays a role in directing a message of a shocked or an 'error' reaction when approaching human's society. This representation from the spirit also allows the audience to think that this Robot is visiting an alien world were he need to learn alot but firstly, mimicing humans.
+
+
+
+### The Robot's motor code
+
+In this step, I was trying essentially to understand how to build up a relationship between wheels and the legs. For most scenes, the legs (wheels of the robot) are not represented to the audience and this is to center the focus into the robot's idenity. In other words, I am trying to not let the audience distracted from the robot's wheels than other actions. This idea was possible by having close-up shots of the robots. 
+
+Secondly, I did not want the audience to feel distracted from the robot's motors. My solution to this problem is to motivate a relationship between the motor's path and the performance's background. For instance, in some scenes, the performance takes place in a road or a surface, the motor's role is to move within a specific path to portray realistic actions in a green screen. In the desert scene for instance, humans will have difficulties walking in desert sand while a sandstorm is occuring. The robot in this manner will represent this struggle by wiggling in which represents crawling or hard walks by humans.
+
 - Created the performance by using a green screen and zoom.
 - Choose the assembly of background.
 - Post Production.
