@@ -1,4 +1,4 @@
-# Draft Journal:
+# Welcome to S.A.M's Performance Page
 
 ## Week 1
 
