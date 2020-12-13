@@ -47,56 +47,60 @@ When the music's tone is lower, the robot will slowly move forward, letting the 
 
 ### Assembling the robot's contraption:
 
-For this week, I started my contraption by starting the head of the robot and the balck paint in which will define the robot's character. Firstly, the head contraption was challenging because I had to think on an "easy to fix" contrabtion. Based on my previous experiences in this class, I realised that it is important to consider that the Robot at times will need inner maintainance for even worse, an upgrade. Because of this factor, I thought that the neck part of the robot will not be glued to the body and that is to simplify updrages or even fixings in the future. In all, the contraption relied on gravity and tension instead of glue. It did not only simply maintainance but also created a good looking shape to the robot.
+This week, I started my contraption by working on the robot's head and applying black paint to the body to redefine the robot's character. Firstly, the head contraption was challenging because I had to think of an "easy to fix" contraption. Based on my previous experiences in this class, I realized that it is crucial to consider that the Robot at times will need inner maintenance or, even worse, an upgrade. Because of this factor, I thought the robot's neck would not be a part of the body. This is because that approach will simplify further adjustments to the robot's contraption or electrical components. In all, the contraption relied on gravity and tension instead of glue. It did not only require simple maintenance but also created a distinctive looking shape to the robot.
 
 ### Geometric body as a principle for the robot's idenity:
 
-While finishing the base of the contraption, I used a scissor and a box cut to create geometric shapes to the robot. My intension from this geometric approach was to establish an idenity to the robot, this is merely based on nature. In other words, nature in terms of design does not follow the principle of sharp edges, geometric lines and square shapes in living beings. Instead, nature implement curvatures and unedged endings for us humans to identify all walks of life.
+While finishing the contraption base, I used a scissor and a box cutter to create geometric shapes for the robot. My intention from this geometric approach was to establish an identity for the robot, merely based on nature. In other words, nature in terms of design does not follow the principle of sharp edges, geometric lines, and square shapes in living beings. Instead, nature implements curvatures and unedged endings for us humans to identify all walks of life.
 
 ### Script writing and mise-en-scêne:
 
-In film language mise-en-scêne corresponds the relationship between a main character to his surroundings. This conveys that in this final project, the robot should have a direct relationship to his surroundings, in the manner of creating a narrative behind an identity. Due to the implementation of this element in the final project, the script should not only consider words for the robot but instead, to influence his actions and behaviors.
+In film language, mise-en-scêne corresponds to the relationship between the main character to his surroundings. This conveys that in this final project, the robot should directly relate to his surroundings to create a narrative of his identity. Due to this element's implementation in the final project, the script should consider words and components' expressions to respond to the robot's actions and behaviors.
 
-The script process involved including the motor movements, OLED display and finaly, the path in which the robot will follow to create a narrative. Because most audience will consider robots as passive tools with no emotions, I am trying to defeat this ideology in my film. This is by including a white background in the establising scene, in which will allow the audience to be introduced to the robot and not merely the performance. Hence, it will raise ideas and questions to how this robot can be attached socially to humanbeings.
+The script process involved the motor movements, OLED display, and finally, the path the robot will follow to create a narrative. Because most audiences will consider robots as passive tools with no emotions, I try to defeat this ideology in my film. Regarding this approach, I will include a white background in the establishing scene, which will allow the audience to be introduced to the robot and not merely the performance. Hence, by following these steps, the performance will raise ideas and questions about how a robot can be attached socially to human beings.
 
-Because I started thinking about the social context of the robot, the song in which represents cowboys will hopefully evoke ideas of social attachments to the robot. In sum, this song will help construct the idea of the robots reidenifying their idetities to match human's understanding.
+Because I started thinking about the social context of the robot, the song representing cowboys will hopefully evoke ideas of social attachments to the robot. In sum, this song will help construct the robots' idea of identifying his identity to match a human's understanding.
 
 ### Challenges:
 
-While going throught the Motor test, I realised that the motor drivers is not longer functioning. During this unpredicted action, I started to try every possible solution. At first, the motor driver did not only stopped working as it influenced Arduino to stop working. This way determined when the Arduino. did not send messages or initializations to other component such as the button and the OLED display. Additionaly, the motor driver stoped Arduino from blinking. Because of this feedback, I thought that the Qwicc wires were the issue due to the beleive that they are not functioning. When I tried the same wires in the different components, they worked and also allowed Arduino to blink. Secondly, I realised that the motor driver when trying all Qwicc wires did not blink. This aspect allowed me to think of a final alternation, which is to unscrew the motor and battery wires from the motor driver and re-screwing them again. The attempt did not succed and thus, I confirmed that the motors will not work until I get a new one.
+While going through the Motor test, I realized that the motor driver is no longer functioning. During this unpredicted action, I began trying every possible solution. At first, the motor driver influenced Arduino to stop working. In other words, the motor driver did not enable Arduino to send messages or initializations to other components such as the button and the OLED display. Additionally, the motor driver stopped Arduino from blinking. Because of this feedback, I thought that the Qwicc wires were the issues because they might have damaged. When I tried the same wires in different components, they allowed Arduino to blink. Secondly, I realized that the motor driver, when trying all Qwicc wires, did not blink. This aspect allowed me to think of a final alternative, that is, to unscrew the motor and battery wires from the motor driver and re-screw them again. The attempt did not succeed, and thus, I confirmed that the motors would not work until I get a new motor driver.
 
-Because of this challenge, I redirected my thought into developing the performance's narrative and not to focus on Arduino until I get hands on a new motor driver. The challenge was time, in which this issue did not allow me to develop Arduino. This is mainly because I was disencouraged.
+Because of this challenge, I redirected my thoughts into developing the performance's narrative and not on Arduino until I get my hands on a new motor driver.
 
 ### Costume:
+
+The costume of the robot was inspired by human nature rather than a robot's world. This illustrates that geometric symmetries and sharp edges did not motivate the costume's appearance. In other words, implementing this method to the robot's identity will help the audience associate the robot with its environment, which involves humans.
 
 ## Week 3
 
 ### The Robot's spirit code:
 
-In this step of the week, I was struggling in how to generate a robot's spirit. I thought of two animations that are critical the the robot's representation. The first animatation had the role in establishing the mouth of the robot. The second animation in mind represented a moving mouth. For us, this will signify a speech.Iimplementing these idea was a challeng, this is because it wasn't possible for me to convert images into bitmap. This step was time consuming because most suggested websites failed and so did the researched webs. Because of this aspect, I thought of creating the animations manually which depended on my imagination skills.
+In this step, I was struggling with how to generate a robot's spirit. I thought of two critical animations of the robot's representation. The first animation had a role in establishing the mouth of the robot. The second animation in mind represented a moving mouth. For us, this will signify a speech. Implementing these ideas was a challenge; this is because I could not convert images into a bitmap. This step was time-consuming because most suggested websites failed. Because of this aspect, I thought of creating the animations manually, which depended on my imagination skills.
 
-I followed a paper sketch to create drawing in bitmaps. Creating them took from me 3 hours but succedded in representing my ideal imagery.
+I followed a paper sketch to create a drawing in bitmaps. Creating them took me 3 hours but succeeded in representing my ideal imagery.
 
-The other two facial expressions that were applied to the robot's spirit were:
+The other two facial expressions applied to the robot's spirit were:
 
-Emotionless reaction: This helped me in establing a base reaction for the robot's idenity. This is because robots in my performance demonstrate that they learn from humans and so, the emotionless reaction takes place in representing a robot's alienating behavior.
+- Emotionless reaction: This helped me in establishing a base reaction for the robot's identity. This is because robots in my performance demonstrate that they learn from humans, and so, the emotionless response takes place in representing a robot's alienating behavior.
 
-Surprised reaction: This reaction is intended to be used two times in the film; however, I consider them to be the most powerful reactions in the performance. This is because it plays a role in directing a message of a shocked or an 'error' reaction when approaching human's society. This representation from the spirit also allows the audience to think that this Robot is visiting an alien world were he need to learn alot but firstly, mimicing humans.
-
+- Surprised reaction: This reaction is intended to be used two times in the film; however, I consider them to be the most powerful reactions in the performance. This is because it plays a role in directing a shocked or an 'error' response when approaching human society. This representation from the spirit also allows the audience to think that this Robot is visiting an alien world where he needs to learn a lot but, firstly, mimicking humans.
 
 
 ### The Robot's motor code
 
-In this step, I was trying essentially to understand how to build up a relationship between wheels and the legs. For most scenes, the legs (wheels of the robot) are not represented to the audience and this is to center the focus into the robot's idenity. In other words, I am trying to not let the audience distracted from the robot's wheels than other actions. This idea was possible by having close-up shots of the robots. 
+In this step, I was trying essentially to understand how to build up a relationship between wheels and the legs. For most scenes, the legs (wheels of the robot) are not represented to the audience, and this is to center the focus on the robot's identity. In other words, I am trying not to let the audience be distracted from the robot's wheels than other actions. This idea was possible by having close-up shots of the robots. 
 
-Secondly, I did not want the audience to feel distracted from the robot's motors. My solution to this problem is to motivate a relationship between the motor's path and the performance's background. For instance, in some scenes, the performance takes place in a road or a surface, the motor's role is to move within a specific path to portray realistic actions in a green screen. In the desert scene for instance, humans will have difficulties walking in desert sand while a sandstorm is occuring. The robot in this manner will represent this struggle by wiggling in which represents crawling or hard walks by humans.
+Secondly, I did not want the audience to feel distracted by the robot's motors. My solution to this problem is to motivate a relationship between the motor's path and the performance's background. For instance, in some scenes, the performance takes place on a road or a surface, the motor's role is to move within a specific path to portray realistic actions on a green screen. For instance, in the desert scene, humans will have difficulties walking in the desert sand while a sandstorm is occurring. In this manner, the robot will represent this struggle by wiggling, representing crawling, or challenging steps by humans.
 
-- Created the performance by using a green screen and zoom.
-- Choose the assembly of background.
-- Post Production.
+### Green screen and Zoom:
 
-- Challenges
+Regarding the performance, the robot's background was highly motivated by the green screen due to time limitations. The motor driver challenge in week 3 allowed me to approach the green screen differently. Due to the pandemic, all classes in NYUAD are instructed online and specifically from zoom. In Zoom, students can travel anywhere by applying a virtual background. This aspect inspired me to represent my robot in Zoom. This option allowed me to approach green screen effects easier than filming a shot from a phone or camera. In sum, Zoom allowed me to accomplish the performance ahead of schedule. 
 
-- Video (Performance) link.
-- Behind the scenes video link.
+### Choose the assembly of background.
+
+Choosing the background is hard because I wanted to relate static images of the robot's environment to a video transition. This relationship is possible by overlooking and matching each frame to the mainframe (the different backgrounds of the robot). In simple, running and focusing on visual editing effects will allow the audience to observe a visual narrative from the robot's perspective.
+
+### Performance link.
+
+
 
