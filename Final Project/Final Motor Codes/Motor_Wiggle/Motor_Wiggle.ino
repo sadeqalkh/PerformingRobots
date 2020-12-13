@@ -1,3 +1,5 @@
+// // This program is designed to let the Robot Wiggle.
+
 #include <Arduino.h>
 #include <stdint.h>
 #include "Wire.h" // for QWIIC communication
