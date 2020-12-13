@@ -1,4 +1,4 @@
-//This program is designed to play the Expressionless animation in an unlimited duration
+//This program is designed to initiate and remain the Shocked mouth expression forever.
 
 
 #include <Arduino.h>
