@@ -102,7 +102,7 @@ Choosing the background is hard because I wanted to relate static images of the 
 
 ### Challenge:
 
-My last challenge was to create a code that controls both the OLED display and the motors with the button. Due to time limitations, laziness can be the best motive for a better solution. I remembered that I had an additional Arduino that can control the OLED display separately from the button and motors. For this to happen, the animations should occur in an infinite loop where I can change physically. In the RobotContraption_Development.md, you will find how both Arduinos are connected to all components.
+My last challenge was to create a code that controls both the OLED display and the motors with the button. Due to time limitations, laziness can be the best motive for a better solution. I remembered that I had an additional Arduino that can control the OLED display separately from the button and motors. For this to happen, the animations should occur in an infinite loop where I can change physically. In the " RobotContraption_Development.md ", you will find how both Arduinos are connected to all components.
 
 ### Performance link:
 
