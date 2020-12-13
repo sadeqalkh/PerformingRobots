@@ -1,3 +1,5 @@
+// This program is designed to let the Robot move Right and then Left.
+
 #include <Arduino.h>
 #include <stdint.h>
 #include "Wire.h" // for QWIIC communication
