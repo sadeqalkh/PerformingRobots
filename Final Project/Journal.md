@@ -108,5 +108,5 @@ My last challenge was to create a code that controls both the OLED display and t
 
 https://youtu.be/k5Ri0W8jWL4
 
-##           Thank you for viewing my journal!
+##                                                                      Thank you for viewing my journal!
 
