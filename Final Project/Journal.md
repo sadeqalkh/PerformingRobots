@@ -100,7 +100,7 @@ Regarding the performance, the robot's background was highly motivated by the gr
 
 Choosing the background is hard because I wanted to relate static images of the robot's environment to a video transition. This relationship is possible by overlooking and matching each frame to the mainframe (the different backgrounds of the robot). In simple, running and focusing on visual editing effects will allow the audience to observe a visual narrative from the robot's perspective.
 
-### Performance link.
+### Performance link:
 
 https://youtu.be/k5Ri0W8jWL4
 
