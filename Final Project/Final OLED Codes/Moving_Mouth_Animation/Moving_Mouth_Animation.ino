@@ -1,4 +1,4 @@
-//This program is designed to play the mouth animation in unlimited times
+//This program is designed to play the a moving mouth animation in unlimited times
 
 
 #include <Arduino.h>
