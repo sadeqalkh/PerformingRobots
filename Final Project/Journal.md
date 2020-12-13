@@ -100,6 +100,10 @@ Regarding the performance, the robot's background was highly motivated by the gr
 
 Choosing the background is hard because I wanted to relate static images of the robot's environment to a video transition. This relationship is possible by overlooking and matching each frame to the mainframe (the different backgrounds of the robot). In simple, running and focusing on visual editing effects will allow the audience to observe a visual narrative from the robot's perspective.
 
+### Challenge:
+
+My last challenge was to create a code that controls both the OLED display and the motors with the button. Due to time limitations, laziness can be the best motive for a better solution. I remembered that I had an additional Arduino that can control the OLED display separately from the button and motors. For this to happen, the animations should occur in an infinite loop where I can change physically. 
+
 ### Performance link:
 
 https://youtu.be/k5Ri0W8jWL4
